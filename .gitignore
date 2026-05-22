@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Model weights (large file — use Git LFS or download separately)
+best_model.pth
+
+# Temp files
+_doc_text.txt
+read_doc.py
+*.tmp
+~$*
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Generated docs (can be regenerated)
+# ВКР_Классификация_растений.docx
+# ВКР_Классификация_растений_v2.docx
+# Presentation_VKR.pptx
+# Presentation_VKR_v2.pptx
